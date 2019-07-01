@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface>
+  <object class="tk.Frame" id="Frame_1">
+    <property name="background">#feffff</property>
+    <property name="height">600</property>
+    <property name="width">400</property>
+    <layout>
+      <property name="column">0</property>
+      <property name="propagate">True</property>
+      <property name="row">0</property>
+    </layout>
+    <child>
+      <object class="tk.LabelFrame" id="Title">
+        <property name="borderwidth">s</property>
+        <property name="cursor">arrow</property>
+        <property name="font">TkCaptionFont</property>
+        <property name="height">50</property>
+        <property name="padx">30</property>
+        <property name="pady">30</property>
+        <property name="relief">flat</property>
+        <property name="takefocus">true</property>
+        <property name="text" translatable="yes">DEPAM ARTC JMP DEMO</property>
+        <property name="width">300</property>
+        <layout>
+          <property name="column">1</property>
+          <property name="propagate">False</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="pygubu.builder.widgets.pathchooserinput" id="Select_SAP_File_Botton">
+        <property name="type">file</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="pygubu.builder.widgets.pathchooserinput" id="Select Output Folder">
+        <property name="textvariable">string:Select Output Folder</property>
+        <property name="type">directory</property>
+        <layout>
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Message" id="Select_Property">
+        <property name="pady">20</property>
+        <property name="text" translatable="yes">Select Property</property>
+        <property name="width">600</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">2</property>
+          <property name="sticky">se</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Property_1">
+        <property name="text" translatable="yes">Property_1</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">False</property>
+          <property name="row">4</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Property_2">
+        <property name="text" translatable="yes">Property_2</property>
+        <layout>
+          <property name="column">1</property>
+          <property name="propagate">False</property>
+          <property name="row">4</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Property_3">
+        <property name="text" translatable="yes">Property_3</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">5</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Property_4">
+        <property name="text" translatable="yes">Property_4</property>
+        <layout>
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">5</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Property_5">
+        <property name="text" translatable="yes">Property_5</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">6</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Property_6">
+        <property name="text" translatable="yes">Property_6</property>
+        <layout>
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">6</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Property_7">
+        <property name="text" translatable="yes">Property_7</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">7</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Property_8">
+        <property name="text" translatable="yes">Property_8</property>
+        <layout>
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">7</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Message" id="Select_Period_of_Time">
+        <property name="pady">20</property>
+        <property name="text" translatable="yes">Select Period of Time</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">9</property>
+          <property name="sticky">se</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Message" id="Message_7">
+        <property name="text" translatable="yes">Start Date</property>
+        <property name="width">100</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">10</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Message" id="Message_8">
+        <property name="text" translatable="yes">End Date</property>
+        <property name="width">100</property>
+        <layout>
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">10</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="pygubu.builder.widgets.calendarframe" id="calendarframe_1">
+        <property name="borderwidth">5</property>
+        <property name="calendarbg">#fefc78</property>
+        <property name="firstweekday">6</property>
+        <property name="headerbg">#73fdff</property>
+        <property name="height">100</property>
+        <property name="markbg">#72fcd5</property>
+        <property name="month">1</property>
+        <property name="relief">ridge</property>
+        <property name="selectbg">#ff2f92</property>
+        <property name="takefocus">false</property>
+        <property name="width">100</property>
+        <property name="year">2016</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">11</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="pygubu.builder.widgets.calendarframe" id="calendarframe_2">
+        <property name="borderwidth">5</property>
+        <property name="calendarbg">#fefc78</property>
+        <property name="firstweekday">6</property>
+        <property name="headerbg">#73fdff</property>
+        <property name="height">0</property>
+        <property name="markbg">#72fcd5</property>
+        <property name="month">1</property>
+        <property name="relief">ridge</property>
+        <property name="selectbg">#ff2f92</property>
+        <property name="width">100</property>
+        <property name="year">2019</property>
+        <layout>
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">11</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>
